@@ -56,7 +56,10 @@
 
     if (templateData === undefined) {
       var json = $(element).attr('template-data');
-      templateData = JSON.parse(json);
+
+      if (json !== undefined) {
+        templateData = JSON.parse(json);
+      }
     }
 
     var compiledHtml = getCompiledHtml(templateId, templateData);
