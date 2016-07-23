@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>temtory Example - Basic</title>
+  </head>
+
+  <body>
+    <div id="header"></div>
+    <div id="contents"></div>
+    <div id="footer"></div>
+
+<!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="../../dist/temtory-1.0.0.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        var header = $('#header');
+        temtory.render(header, 'template_header');
+
+        var contents = $('#contents');
+        temtory.render(contents, 'template_contents', {
+          text: 'Hello Temtory !'
+        });
+
+        var footer = $('#footer');
+        temtory.render(footer, 'template_footer');
+      });
+    </script>
+
+<!-- TEMPLATE -->
+    <script type="text/template" id="template_header">
+      <div>
+        <h1>temtory</h1>
+        <h2>Example > Basic > render</h2>
+        <hr/>
+      </div>
+    </script>
+
+    <script type="text/template" id="template_contents">
+      <div>
+        <p><%= text %></p>
+      </div>
+    </script>
+
+    <script type="text/template" id="template_footer">
+      <div>
+        <hr/>
+        <h4>(c) 2016 Pinkiez</h4>
+      </div>
+    </script>
+  </body>
+</html>
