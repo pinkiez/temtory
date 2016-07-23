@@ -1,0 +1,26 @@
+{
+  "name": "temtory",
+  "version": "1.0.0",
+  "description": "Javascript template rendering library using underscore",
+  "main": "/dist/temtory.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkiez/temtory.git"
+  },
+  "scripts": {
+    "build": "npm install && grunt"
+  },
+  "author": "Pinkiez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinkiez/temtory/issues"
+  },
+  "homepage": "https://github.com/pinkiez/temtory#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-jsonlint": "^1.1.0",
+    "gruntify-eslint": "^2.0.0"
+  }
+}
