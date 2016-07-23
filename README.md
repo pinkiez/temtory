@@ -1,2 +1,2 @@
 # temtory
-Javascript template rendering library using underscore
+JavaScript library for rendering template using underscore
