@@ -74,7 +74,7 @@
    * @param {Object} templateData
    */
   temtory.render = function(element, templateId, templateData) {
-    renderTemplate(container, templateId, templateData);
+    renderTemplate(element, templateId, templateData);
   };
 
 
