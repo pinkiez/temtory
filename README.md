@@ -1,4 +1,4 @@
-# temtory  [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
+# temtory  [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![MIT licensed](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE)
 
 JavaScript library for rendering template using underscore.
 
